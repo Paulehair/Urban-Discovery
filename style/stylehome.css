@@ -1,0 +1,36 @@
+@font-face {
+  font-family: raleway-medium;
+  src: url(css/font/Raleway/Raleway-Medium.ttf);
+}
+
+
+.container {
+  height: 100vh;
+  position: relative;
+  background-image: url("img_background/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.button {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 4px #fff;
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  top: 335px;
+  left: 325px;
+}
+
+.link {
+  display: block;
+  padding-left: 30px;
+  text-decoration: none;
+  color: #fff;
+  font-family: raleway-medium;
+  font-size: 40px;
+}
